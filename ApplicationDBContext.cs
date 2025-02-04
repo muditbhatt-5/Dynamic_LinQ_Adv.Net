@@ -16,7 +16,7 @@ namespace LinQ_DB
         public DbSet<Employee> Employee { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=LAPTOP-RFJH7F5C\SQLEXPRESS;Initial Catalog=LinQ_DB; Trusted_Connection=true;TrustServerCertificate=True;");//change your connection as required
+            optionsBuilder.UseSqlServer(@"Data Source=;Initial Catalog=; Trusted_Connection=true;TrustServerCertificate=True;");//change your connection as required
         }
     }
 }
