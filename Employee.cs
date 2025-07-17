@@ -23,4 +23,3 @@ namespace LinQ_DB
         public string? Gender { get; set; }
     }
 }
-
